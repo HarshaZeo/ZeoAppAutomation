@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [onboarding cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUp and Login(failed)">
+    <classes>
+      <class name="ZeoOnboardingScripts.OnboardingTests">
+        <methods>
+          <include name="stopServer"/>
+          <include name="startServer"/>
+          <include name="signUpEmailPassword"/>
+          <include name="activateApp"/>
+          <include name="Logout"/>
+          <include name="forgotPasswordAndChange"/>
+          <include name="Login"/>
+          <include name="closeApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- ZeoOnboardingScripts.OnboardingTests -->
+    </classes>
+  </test> <!-- SignUp and Login(failed) -->
+</suite> <!-- Failed suite [onboarding cases] -->
